@@ -53,7 +53,7 @@ h1 {
     line-height: 1.5em;
 }
 
-div.author-details {
+.card-footer-a {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
@@ -95,13 +95,17 @@ div.author-details {
 
 /*ACTIVE SOCIAL LINKS*/
 
-.social-links-container {
+.card-footer-b {
     background-color: hsl(217, 19%, 35%);
     width: 310px;
     padding: 10px 20px;
     border-radius: 0 0 10px 10px;
     box-sizing: border-box;
     margin-top: 30px;
+}
+
+.display-social-links {
+    display: none;
 }
 
 .social-details-container {
@@ -137,6 +141,8 @@ div.share-arrow {
 
  /*JAVASCRIPT CLASS SELECTOR*/
 
- div.toggle-active, .inactive-links {
+ .toggle-active {
      display: none;
  }
+
+
