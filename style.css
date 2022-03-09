@@ -141,7 +141,7 @@ div.share-arrow {
 
  /*JAVASCRIPT CLASS SELECTOR*/
  .toggle-card-footer-a {
-    visibility: hidden;
+    display: none;
 }
 
 /*DESKTOP LAYOUT*/
