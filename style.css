@@ -204,6 +204,13 @@ div.share-arrow {
         border-style: solid;
         border-color: hsl(217, 19%, 35%) transparent transparent transparent;
     }
+    .social-details-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .share-name {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 768px) {
