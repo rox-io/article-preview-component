@@ -104,6 +104,10 @@ div.author-details {
     margin-top: 30px;
 }
 
+.display-social-links {
+    display: none;
+}
+
 .social-details-container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -137,6 +141,8 @@ div.share-arrow {
 
  /*JAVASCRIPT CLASS SELECTOR*/
 
- div.toggle-active, .inactive-links {
+ .toggle-active {
      display: none;
  }
+
+
