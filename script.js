@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const share = document.querySelectorAll("div.share-icon");
 const socialLinks = document.querySelector("div.social-links-container");
 const authorCard = document.querySelector("div.author-details");
@@ -8,3 +9,16 @@ for(let icon of share) {
         authorCard.classList.toggle("toggle-active");
     })
 }
+=======
+const shareBtn = document.querySelectorAll("div.share-icon");
+const socialLinks = document.querySelector("div.card-footer-b");
+const authorCard = document.querySelector("div.card-footer-a");
+
+for(let btn of shareBtn) {
+    btn.addEventListener("click", () => {
+        socialLinks.classList.toggle("toggle-card-footer-b");
+        authorCard.classList.toggle("toggle-card-footer-a");
+    })
+}
+
+>>>>>>> c4ef83f544f4e4d03531969f52f90d141376a4af
