@@ -148,13 +148,6 @@ div.share-arrow {
     display: none;
 }
 
-<<<<<<< HEAD
- .toggle-active {
-     display: none;
- }
-
-
-=======
 /*DESKTOP LAYOUT*/
 @media only screen and (min-width: 768px){
     h1 {
@@ -231,4 +224,3 @@ div.share-arrow {
         left: 44%;
     }
 }
->>>>>>> c4ef83f544f4e4d03531969f52f90d141376a4af
