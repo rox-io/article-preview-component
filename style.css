@@ -58,7 +58,7 @@ h1 {
     position: relative;
 }
 
-.card-footer-a {
+.author-sec {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
@@ -99,7 +99,7 @@ h1 {
     width: 100%;
 }
 
-.card-footer-b {
+.share-sec {
     background-color: hsl(217, 19%, 35%);
     padding: 10px 25px;
     border-radius: 0 0 10px 10px;
@@ -139,7 +139,7 @@ div.share-arrow {
 
  /* JAVASCRIPT SELECTOR */
 
-.toggle-card-footer-b {
+.toggle-share-sec {
     display: none;
 }
 
@@ -185,7 +185,7 @@ div.share-arrow {
 }
 
 @media only screen and (min-width: 768px) {
-    .card-footer-b {
+    .share-sec {
         position: absolute;
         top: -80%;
         left: 57%;
@@ -194,7 +194,7 @@ div.share-arrow {
         padding: 5px 25px;
     }
 
-    .card-footer-b::after {
+    .share-sec::after {
         content: "";
         position: absolute;
         top: 100%;
