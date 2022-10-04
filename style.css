@@ -63,6 +63,7 @@ h1 {
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
     padding: 15px 25px;
+    position: relative;
 }
 
 
@@ -102,14 +103,7 @@ h1 {
     background-color: hsl(217, 19%, 35%);
     padding: 10px 25px;
     border-radius: 0 0 10px 10px;
-}
-
-.toggle-card-footer-b {
-    display: none;
-}
-
-.display-social-links {
-    display: none;
+    position: absolute;
 }
 
 .social-details-container {
@@ -143,12 +137,14 @@ div.share-arrow {
      width: 100%;
  }
 
- /*JAVASCRIPT CLASS SELECTOR*/
- .toggle-card-footer-a {
+ /* JAVASCRIPT SELECTOR */
+
+.toggle-card-footer-b {
     display: none;
 }
 
 /*DESKTOP LAYOUT*/
+
 @media only screen and (min-width: 768px){
     h1 {
         font-size: 20px;
