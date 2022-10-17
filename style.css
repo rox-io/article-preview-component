@@ -152,14 +152,14 @@ div.links {
 
 @media only screen and (min-width: 810px){
     h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     #main {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 1fr;
         width: 700px;
-        height: 280px;
+        height: 300px;
     }    
 }
 
@@ -168,7 +168,7 @@ div.links {
         grid-column: 1;
         grid-row: 1 / 3;
         width: 280px;
-        height: 280px;
+        height: 300px;
         border-radius: 10px 0 0 10px;
     }
 }
@@ -179,9 +179,11 @@ div.links {
         grid-row: 1 / 2;
         padding: 0 40px;
     }
+
     #text-section p {
         font-size: 12px;
     }
+
 }
 
 @media only screen and (min-width: 810px) {
