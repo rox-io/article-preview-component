@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-article-page-made-with-css-grid-and-flexbox-_oDv7VyEUf]
 - Live Site URL: [https://rox-io.github.io/article-preview-component/]
 
 ### Built with
