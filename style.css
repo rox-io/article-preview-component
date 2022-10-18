@@ -7,7 +7,8 @@ body {
     align-items: center;
     font-size: 13px;
     font-family: 'Manrope', sans-serif;
-    height: 1000px;
+    height: 100vh;
+    width: 100vw;
 }
 
 #main {
@@ -148,60 +149,61 @@ div.links {
      filter: brightness(3);
  }
 
-/*DESKTOP LAYOUT*/
+/*TABLET SCREENS*/
 
-@media only screen and (min-width: 810px){
+@media only screen and (min-width: 590px){
     h1 {
-        font-size: 20px;
+        font-size: 12px;
     }
 
     #main {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 1fr;
-        width: 700px;
-        height: 300px;
-    }    
+        width: 470px;
+        height: 220px;
+    }   
 }
 
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 590px) {
     #image-section {
         grid-column: 1;
         grid-row: 1 / 3;
-        width: 280px;
-        height: 300px;
+        width: 220px;
+        height: 220px;
         border-radius: 10px 0 0 10px;
     }
 }
 
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 590px) {
     #text-section {
         grid-column: 2;
         grid-row: 1 / 2;
-        padding: 0 40px;
+        padding: 0 15px;
     }
 
     #text-section p {
-        font-size: 12px;
+        font-size: 9px;
     }
 
 }
 
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 590px) {
     #share-section {
         align-items: flex-start;
-        padding: 0 15px;
-        height: 85px;
     }
-}
 
-@media only screen and (min-width: 810px) {
+    .share-icon {
+        justify-self: flex-end;
+    }
+
     .share-sec {
         position: absolute;
-        top: -80%;
-        left: 53%;
+        top: -88%;
+        left: 45%;
         border-radius: 10px;
-        width: 50%;
+        width: 60%;
         padding: 3px 20px;
+        font-size: 10px;
     }
 
     .share-sec::after {
@@ -221,6 +223,69 @@ div.links {
 
     .share-name {
         text-align: center;
+    }
+}
+
+/*LARGER TABLET SCREENS*/
+
+@media only screen and (min-width: 800px){
+    h1 {
+        font-size: 19px;
+    }
+
+    #main {
+        width: 700px;
+        height: 280px;
+    }    
+}
+
+@media only screen and (min-width: 800px) {
+    #image-section {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #text-section {
+        padding: 0 40px;
+    }
+
+    #text-section p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .share-icon {
+        justify-self: center;
+    }
+
+    #share-section {
+        align-items: flex-start;
+        padding: 0 15px;
+        height: 85px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .share-sec {
+        top: -76%;
+        left: 53%;
+        width: 50%;
+        padding: 8px 15px;
+    }
+}
+
+/*LAPTOP AND DESKTOP SCREENS*/
+
+@media only screen and (min-width: 1024px) {
+    .share-icon {
+        justify-self: flex-end;
+    }
+
+    .share-sec {
+        left: 58%;
     }
 }
 
