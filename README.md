@@ -24,16 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![](./images/Screenshot.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here]
 - Live Site URL: [https://rox-io.github.io/article-preview-component/]
-
-
-## My process
 
 ### Built with
 
@@ -41,7 +37,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
 
 ## Author
 
